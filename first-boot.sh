@@ -36,7 +36,7 @@ fi
 
 echo "Init AVD ..."
 
-echo "no" | avdmanager create avd -n android -k "system-images;android-35;google_apis;x86_64" -d "pixel_9_pro_xl"
+echo "no" | avdmanager create avd -n android -k "system-images;android-34;google_atd;x86_64" -d 48
 
 echo "Preparation ..."
 
@@ -58,8 +58,8 @@ echo "Root Script Starting..."
 git clone https://gitlab.com/newbit/rootAVD.git
 pushd rootAVD
 sed -i 's/read -t 10 choice/choice=1/' rootAVD.sh
-./rootAVD.sh system-images/android-35/google_apis/x86_64/ramdisk.img
-cp /opt/android-sdk/system-images/android-35/google_apis/x86_64/ramdisk.img /data/android.avd/ramdisk.img
+./rootAVD.sh system-images/android-34/google_atd/x86_64/ramdisk.img
+cp /opt/android-sdk/system-images/android-34/google_atd/x86_64/ramdisk.img /data/android.avd/ramdisk.img
 popd
 
 echo "Root Done"
