@@ -36,7 +36,7 @@ fi
 
 echo "Init AVD ..."
 
-echo "no" | avdmanager create avd -n android -k "system-images;android-35;google_apis;x86_64"
+echo "no" | avdmanager create avd -n android -k "system-images;android-35;google_apis;x86_64" -d "pixel_9_pro_xl"
 
 echo "Preparation ..."
 
