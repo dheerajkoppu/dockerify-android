@@ -3,15 +3,15 @@
 <img align="right" src="/doc/dockerify-android-web-preview.png" />
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Docker Pulls](https://img.shields.io/docker/pulls/shmayro/dockerify-android)](https://hub.docker.com/r/shmayro/dockerify-android)
-[![GitHub Issues](https://img.shields.io/github/issues/shmayro/dockerify-android)](https://github.com/shmayro/dockerify-android/issues)
-[![GitHub Stars](https://img.shields.io/github/stars/shmayro/dockerify-android?style=social)](https://github.com/shmayro/dockerify-android/stargazers)
+[![Docker Pulls](https://img.shields.io/docker/pulls/dheerajkoppu/dockerify-android)](https://hub.docker.com/r/dheerajkoppu/dockerify-android)
+[![GitHub Issues](https://img.shields.io/github/issues/dheerajkoppu/dockerify-android)](https://github.com/dheerajkoppu/dockerify-android/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/dheerajkoppu/dockerify-android?style=social)](https://github.com/dheerajkoppu/dockerify-android/stargazers)
 
 **Dockerify Android** is a Dockerized Android emulator supporting multiple CPU architectures (**x86** and **arm64** in the near future ...) with native performance and seamless ADB & Web access. It allows developers to run Android virtual devices (AVDs) efficiently within Docker containers, facilitating scalable testing and development environments.
 
 ### 🔥 **Key Feature: Web Interface Access** 🌐
 
-Access and control the Android emulator directly in your web browser with the integrated [scrcpy-web](https://github.com/Shmayro/ws-scrcpy-docker) interface! No additional software needed - just open your browser and start using Android.
+Access and control the Android emulator directly in your web browser with the integrated [scrcpy-web](https://github.com/dheerajkoppu/ws-scrcpy-docker) interface! No additional software needed - just open your browser and start using Android.
 
 > **Benefits of Web Interface:**
 > - No extra software to install
@@ -23,8 +23,8 @@ Access and control the Android emulator directly in your web browser with the in
 
 ## 🏠 **Homepage**
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/shmayro/dockerify-android)
-[![Docker Hub](https://img.shields.io/badge/Docker%20Hub-Repo-blue?logo=docker)](https://hub.docker.com/r/shmayro/dockerify-android)
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/dheerajkoppu/dockerify-android)
+[![Docker Hub](https://img.shields.io/badge/Docker%20Hub-Repo-blue?logo=docker)](https://hub.docker.com/r/dheerajkoppu/dockerify-android)
 
 ## 📜 **Table of Contents**
 
@@ -45,7 +45,7 @@ Access and control the Android emulator directly in your web browser with the in
 
 ## 🔧 **Features**
 
-- **🌐 Web Interface:** Access the emulator directly from your browser with the integrated [scrcpy-web](https://github.com/Shmayro/ws-scrcpy-docker) interface.
+- **🌐 Web Interface:** Access the emulator directly from your browser with the integrated [scrcpy-web](https://github.com/dheerajkoppu/ws-scrcpy-docker) interface.
 - **Root and Magisk Preinstalled:** Comes with root access and Magisk preinstalled for advanced modifications.
 - **PICO GAPPS Preinstalled:** Includes PICO GAPPS for essential Google services.
 - **Seamless ADB Access:** Connect to the emulator via ADB from the host and other networked devices.
@@ -73,12 +73,12 @@ Before you begin, ensure you have met the following requirements:
 
 ## 🚀 **Installation**
 
-To simplify the setup process, you can use the provided [docker-compose.yml](https://github.com/Shmayro/dockerify-android/blob/main/docker-compose.yml) file.
+To simplify the setup process, you can use the provided [docker-compose.yml](https://github.com/dheerajkoppu/dockerify-android/blob/main/docker-compose.yml) file.
 
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/shmayro/dockerify-android.git
+    git clone https://github.com/dheerajkoppu/dockerify-android.git
     cd dockerify-android
     ```
 
@@ -188,7 +188,7 @@ This includes:
 - [ ] Support ARM64 CPU architecture
 - [x] Preinstall PICO GAPPS
 - [x] Support Magisk
-- [x] Adding web interface of [scrcpy](https://github.com/Shmayro/ws-scrcpy-docker)
+- [x] Adding web interface of [scrcpy](https://github.com/dheerajkoppu/ws-scrcpy-docker)
 - [x] Redirect all logs to container stdout/stderr
 
 ## 🐞 **Troubleshooting**
@@ -263,5 +263,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 - **Haroun EL ALAMI**
 - **Email:** haroun.dev@gmail.com
-- **GitHub:** [shmayro](https://github.com/shmayro)
+- **GitHub:** [dheerajkoppu](https://github.com/dheerajkoppu)
 - **Twitter:** [@HarounDev](https://twitter.com/HarounDev)

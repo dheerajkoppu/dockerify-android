@@ -8,7 +8,7 @@ Thank you for considering contributing to Dockerify Android! We welcome all cont
 2. **Clone Your Fork:**
 
     ```bash
-    git clone https://github.com/shmayro/dockerify-android.git
+    git clone https://github.com/dheerajkoppu/dockerify-android.git
     cd dockerify-android
     ```
 
@@ -35,7 +35,7 @@ Thank you for considering contributing to Dockerify Android! We welcome all cont
 
 ## Reporting Issues
 
-If you find a bug or have a feature request, please open an [issue](https://github.com/shmayro/dockerify-android/issues).
+If you find a bug or have a feature request, please open an [issue](https://github.com/dheerajkoppu/dockerify-android/issues).
 
 ## Code of Conduct
 

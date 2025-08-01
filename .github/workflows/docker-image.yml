@@ -43,7 +43,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ github.ref == 'refs/heads/main' && 'shmayro/dockerify-android:latest' || '' }}
-            ${{ github.ref == 'refs/heads/main' && format('shmayro/dockerify-android:{0}', env.DATE) || '' }}
-            ${{ github.event_name == 'pull_request' && format('shmayro/dockerify-android:pr-{0}', env.PR_ID) || '' }}
+            ${{ github.ref == 'refs/heads/main' && 'dheerajkoppu/dockerify-android:latest' || '' }}
+            ${{ github.ref == 'refs/heads/main' && format('dheerajkoppu/dockerify-android:{0}', env.DATE) || '' }}
+            ${{ github.event_name == 'pull_request' && format('dheerajkoppu/dockerify-android:pr-{0}', env.PR_ID) || '' }}
           platforms: linux/amd64

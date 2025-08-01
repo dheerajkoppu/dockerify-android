@@ -81,6 +81,6 @@ CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
 
 # docker build -t dockerify-android .
 # docker run -d --name dockerify-android --device /dev/kvm --privileged -p 5555:5555 dockerify-android
-# docker run -d --name dockerify-android --device /dev/kvm --privileged -p 5555:5555 shmayro/dockerify-android
+# docker run -d --name dockerify-android --device /dev/kvm --privileged -p 5555:5555 dheerajkoppu/dockerify-android
 # docker exec -it dockerify-android tail -f /var/log/supervisor/emulator.out
 # docker exec -it dockerify-android tail -f /var/log/supervisor/first-boot.out.log
